@@ -1,6 +1,9 @@
 #include <iostream>
+#include "Game.h"
 
 int main() {
-	std::cout << "Game prototype with SFML!";
-	return 0;
+
+	GamePrototype::Game(800, 600, "Game Prototype");
+
+	return EXIT_SUCCESS;
 }
