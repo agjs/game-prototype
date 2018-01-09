@@ -1,6 +1,2 @@
-﻿  main.cpp
-  Game.cpp
-  Generating Code...
-  Skipping... (no relevant changes detected)
-  StateMachine.cpp
+﻿  SplashState.cpp
   game-prototype.vcxproj -> C:\Users\agjs\source\repos\game-prototype\Debug\game-prototype.exe

@@ -1,9 +1,10 @@
 #include <iostream>
 #include "Game.h"
+#include "DEFINITIONS.h"
 
 int main() {
 
-	GamePrototype::Game(800, 600, "Game Prototype");
+	GamePrototype::Game(SCREEN_WIDTH, SCREEN_HEIGHT, "Game Prototype");
 
 	return EXIT_SUCCESS;
 }

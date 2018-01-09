@@ -1,5 +1,5 @@
 #include "Game.h"
-
+#include "SplashState.h"
 
 namespace GamePrototype {
 
@@ -8,6 +8,8 @@ namespace GamePrototype {
 			sf::VideoMode(width, height), 
 			applicationName, sf::Style::Close | sf::Style::Titlebar
 		);
+
+		_data->machine.AddState(StateRef_t(new SplashState(this->_data)));
 
 		this->Run();
 	}
